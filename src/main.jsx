@@ -9,8 +9,7 @@ import Home from './pages/Home.jsx'
 import SignInPage from "./auth/sign-in/index.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import ResumeBuilder from "./pages/ResumeBuilder.jsx";
-import History from "./pages/History.jsx";
-
+import { History } from "./pages/History.jsx";
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
