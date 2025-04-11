@@ -266,7 +266,9 @@ function App() {
       </div>
 
       <div className="flex my-24 mx-14">
-      <div className="flex-none w-1/3">img</div>
+      <div className="flex-none w-1/3">
+      <img src="https://i.postimg.cc/qqvrdq99/resume-cv-resume-template-application-removebg-preview.png" alt="" />
+      </div>
       <div className="flex-1 ">
         <div>
           <h1 className="text-5xl font-semibold mb-7">ResuBuild: A Smarter Way to Optimize Your ATS Score</h1>

@@ -10,6 +10,8 @@ import SignInPage from "./auth/sign-in/index.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import ResumeBuilder from "./pages/ResumeBuilder.jsx";
 import { History } from "./pages/History.jsx";
+import BuilderDashboard from "./builder_dashboard/index.jsx";
+import EditResume from './builder_dashboard/resume/[resumeId]/edit/index.jsx'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path:'/dashboard',
         element: <Dashboard/>,
+      },
+      {
+        path:'/builder_dashboard',
+        element: <BuilderDashboard/>,
+      },
+      {
+        path:'/builder_dashboard/resume/:resumeId/edit',
+        element: <EditResume/>,
       },
       {
         path:'/resume-builder',
